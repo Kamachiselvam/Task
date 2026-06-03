@@ -5,7 +5,7 @@ import { user } from "./data/userdata.mjs";
 import { task } from "./data/taskdata.mjs";
 import mongoose from "mongoose";
 const app=express()
-const port=9000;
+const port=2500;
 app.use(express.json())
 app.use('/api',userRouters)
 app.use('/api',taskRouters)
